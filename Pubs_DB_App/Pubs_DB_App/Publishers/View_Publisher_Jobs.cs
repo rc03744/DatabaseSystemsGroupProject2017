@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Pubs_DB_App.Publishers
 {
-    public partial class Insert_Window_Title : Form
+    public partial class View_Publisher_Jobs : Form
     {
-        public Insert_Window_Title()
+        public View_Publisher_Jobs()
         {
             InitializeComponent();
-        }
-
-        private void Insert_Window_Title_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

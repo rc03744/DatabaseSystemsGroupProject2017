@@ -1,4 +1,4 @@
-﻿namespace Pubs_DB_App.Publishers
+﻿namespace Pubs_DB_App
 {
     partial class Insert_Window_Title
     {
