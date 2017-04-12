@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pubs_DB_App
+namespace Pubs_DB_App.Publishers
 {
     public partial class Publisher_Window : Form
     {
@@ -41,6 +41,11 @@ namespace Pubs_DB_App
         {
             Insert_Window_Employee iwe = new Insert_Window_Employee();
             iwe.Show();
+        }
+
+        private void Publisher_Window_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

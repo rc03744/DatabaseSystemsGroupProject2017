@@ -1,6 +1,6 @@
-﻿namespace Pubs_DB_App
+﻿namespace Pubs_DB_App.Publishers
 {
-    partial class Insert_Window_Title
+    partial class Insert_Window_Job
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // Insert_Window_Title
+            // Insert_Window_Job
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(421, 188);
-            this.Name = "Insert_Window_Title";
-            this.Text = "Insert_Window_Title";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "Insert_Window_Job";
+            this.Text = "Insert_Window_Job";
+            this.Load += new System.EventHandler(this.Insert_Window_Job_Load);
             this.ResumeLayout(false);
 
         }

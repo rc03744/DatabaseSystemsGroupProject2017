@@ -1,4 +1,4 @@
-﻿namespace Pubs_DB_App
+﻿namespace Pubs_DB_App.Publishers
 {
     partial class Insert_Window_Employee
     {

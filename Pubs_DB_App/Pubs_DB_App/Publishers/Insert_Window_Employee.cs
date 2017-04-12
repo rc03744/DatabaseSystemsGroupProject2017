@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pubs_DB_App
+namespace Pubs_DB_App.Publishers
 {
     public partial class Insert_Window_Employee : Form
     {
