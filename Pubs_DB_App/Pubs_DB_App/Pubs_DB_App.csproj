@@ -58,6 +58,12 @@
     <Compile Include="Insert_Window_Job.Designer.cs">
       <DependentUpon>Insert_Window_Job.cs</DependentUpon>
     </Compile>
+    <Compile Include="Insert_Window_Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert_Window_Sale.Designer.cs">
+      <DependentUpon>Insert_Window_Sale.cs</DependentUpon>
+    </Compile>
     <Compile Include="Insert_Window_Title.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,12 @@
     </Compile>
     <EmbeddedResource Include="Insert_Window_Employee.resx">
       <DependentUpon>Insert_Window_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert_Window_Job.resx">
+      <DependentUpon>Insert_Window_Job.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert_Window_Sale.resx">
+      <DependentUpon>Insert_Window_Sale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Insert_Window_Title.resx">
       <DependentUpon>Insert_Window_Title.cs</DependentUpon>

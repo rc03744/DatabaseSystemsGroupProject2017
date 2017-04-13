@@ -42,5 +42,23 @@ namespace Pubs_DB_App
             Insert_Window_Employee iwe = new Insert_Window_Employee();
             iwe.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Insert_Window_Title iwt = new Insert_Window_Title();
+            iwt.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Insert_Window_Job iwj = new Insert_Window_Job();
+            iwj.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Insert_Window_Sale iws = new Insert_Window_Sale();
+            iws.Show();
+        }
     }
 }
