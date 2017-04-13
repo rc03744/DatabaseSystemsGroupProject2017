@@ -1,4 +1,4 @@
-﻿namespace Pubs_DB_App
+﻿namespace Pubs_DB_App.Publishers
 {
     partial class Insert_Window_Job
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD:Pubs_DB_App/Pubs_DB_App/Insert_Window_Job.Designer.cs
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -131,10 +132,15 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Pub ID";
             // 
+=======
+            this.SuspendLayout();
+            // 
+>>>>>>> refs/remotes/origin/master:Pubs_DB_App/Pubs_DB_App/Publishers/Insert_Window_Job.Designer.cs
             // Insert_Window_Job
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD:Pubs_DB_App/Pubs_DB_App/Insert_Window_Job.Designer.cs
             this.ClientSize = new System.Drawing.Size(284, 194);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.groupBox1);
@@ -142,6 +148,12 @@
             this.Text = "Create New Job";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+=======
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "Insert_Window_Job";
+            this.Text = "Insert_Window_Job";
+            this.Load += new System.EventHandler(this.Insert_Window_Job_Load);
+>>>>>>> refs/remotes/origin/master:Pubs_DB_App/Pubs_DB_App/Publishers/Insert_Window_Job.Designer.cs
             this.ResumeLayout(false);
 
         }
