@@ -279,6 +279,7 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "Start_Window";
             this.Text = "Start";
+            this.Load += new System.EventHandler(this.Start_Window_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);

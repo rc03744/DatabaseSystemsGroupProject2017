@@ -43,7 +43,6 @@ namespace Pubs_DB_App.Publishers
             iwe.Show();
         }
 
-<<<<<<< HEAD:Pubs_DB_App/Pubs_DB_App/Publisher_Window.cs
         private void button6_Click(object sender, EventArgs e)
         {
             Insert_Window_Title iwt = new Insert_Window_Title();
@@ -60,11 +59,11 @@ namespace Pubs_DB_App.Publishers
         {
             Insert_Window_Sale iws = new Insert_Window_Sale();
             iws.Show();
-=======
-        private void Publisher_Window_Load(object sender, EventArgs e)
+        }
+
+        private void tb_pubname_TextChanged(object sender, EventArgs e)
         {
 
->>>>>>> refs/remotes/origin/master:Pubs_DB_App/Pubs_DB_App/Publishers/Publisher_Window.cs
         }
     }
 }

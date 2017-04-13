@@ -28,17 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD:Pubs_DB_App/Pubs_DB_App/Insert_Window_Job.Designer.cs
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,37 +67,21 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Job Details";
             // 
-            // textBox2
+            // textBox4
             // 
-            this.textBox2.Location = new System.Drawing.Point(72, 52);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(174, 20);
-            this.textBox2.TabIndex = 5;
+            this.textBox4.Location = new System.Drawing.Point(72, 26);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(174, 20);
+            this.textBox4.TabIndex = 11;
             // 
-            // label3
+            // label4
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 55);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Description";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(72, 78);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(174, 20);
-            this.textBox1.TabIndex = 7;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 81);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Min LVL";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(26, 29);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(40, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Pub ID";
             // 
             // textBox3
             // 
@@ -116,44 +99,50 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "Max LVL";
             // 
-            // textBox4
+            // textBox1
             // 
-            this.textBox4.Location = new System.Drawing.Point(72, 26);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(174, 20);
-            this.textBox4.TabIndex = 11;
+            this.textBox1.Location = new System.Drawing.Point(72, 78);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(174, 20);
+            this.textBox1.TabIndex = 7;
             // 
-            // label4
+            // label1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(26, 29);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Pub ID";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 81);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Min LVL";
             // 
-=======
-            this.SuspendLayout();
+            // textBox2
             // 
->>>>>>> refs/remotes/origin/master:Pubs_DB_App/Pubs_DB_App/Publishers/Insert_Window_Job.Designer.cs
+            this.textBox2.Location = new System.Drawing.Point(72, 52);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(174, 20);
+            this.textBox2.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 55);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Description";
+            // 
             // Insert_Window_Job
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD:Pubs_DB_App/Pubs_DB_App/Insert_Window_Job.Designer.cs
             this.ClientSize = new System.Drawing.Size(284, 194);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.groupBox1);
             this.Name = "Insert_Window_Job";
             this.Text = "Create New Job";
+            this.Load += new System.EventHandler(this.Insert_Window_Job_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-=======
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Name = "Insert_Window_Job";
-            this.Text = "Insert_Window_Job";
-            this.Load += new System.EventHandler(this.Insert_Window_Job_Load);
->>>>>>> refs/remotes/origin/master:Pubs_DB_App/Pubs_DB_App/Publishers/Insert_Window_Job.Designer.cs
             this.ResumeLayout(false);
 
         }

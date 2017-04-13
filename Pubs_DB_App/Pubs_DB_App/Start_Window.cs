@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Pubs_DB_App.Publishers;
 
 namespace Pubs_DB_App
 {
@@ -33,6 +34,11 @@ namespace Pubs_DB_App
             pubwindow.Show();
             //Insert_Window_Employee iwe = new Insert_Window_Employee();
             //iwe.Show();
+        }
+
+        private void Start_Window_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

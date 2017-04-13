@@ -75,6 +75,7 @@
             this.tb_pubname.Name = "tb_pubname";
             this.tb_pubname.Size = new System.Drawing.Size(163, 20);
             this.tb_pubname.TabIndex = 1;
+            this.tb_pubname.TextChanged += new System.EventHandler(this.tb_pubname_TextChanged);
             // 
             // tb_city
             // 
@@ -239,10 +240,7 @@
             this.button8.TabIndex = 14;
             this.button8.Text = "Make Sale";
             this.button8.UseVisualStyleBackColor = true;
-<<<<<<< HEAD:Pubs_DB_App/Pubs_DB_App/Publisher_Window.Designer.cs
             this.button8.Click += new System.EventHandler(this.button8_Click);
-=======
->>>>>>> refs/remotes/origin/master:Pubs_DB_App/Pubs_DB_App/Publishers/Publisher_Window.Designer.cs
             // 
             // rtb_info
             // 
@@ -323,7 +321,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Publisher_Window";
             this.Text = "Publisher_Window";
-            this.Load += new System.EventHandler(this.Publisher_Window_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
