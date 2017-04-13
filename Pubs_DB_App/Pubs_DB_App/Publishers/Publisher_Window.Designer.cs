@@ -209,6 +209,7 @@
             this.button5.TabIndex = 13;
             this.button5.Text = "Create New Job";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -218,6 +219,7 @@
             this.button6.TabIndex = 15;
             this.button6.Text = "Submit Title";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -237,6 +239,10 @@
             this.button8.TabIndex = 14;
             this.button8.Text = "Make Sale";
             this.button8.UseVisualStyleBackColor = true;
+<<<<<<< HEAD:Pubs_DB_App/Pubs_DB_App/Publisher_Window.Designer.cs
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+=======
+>>>>>>> refs/remotes/origin/master:Pubs_DB_App/Pubs_DB_App/Publishers/Publisher_Window.Designer.cs
             // 
             // rtb_info
             // 

@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Pubs_DB_App.Publishers;
 
 namespace Pubs_DB_App
 {
@@ -30,10 +29,10 @@ namespace Pubs_DB_App
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Publisher_Window pubwindow = new Publisher_Window();
-            // pubwindow.Show();
-            Insert_Window_Employee iwe = new Insert_Window_Employee();
-            iwe.Show();
+            Publisher_Window pubwindow = new Publisher_Window();
+            pubwindow.Show();
+            //Insert_Window_Employee iwe = new Insert_Window_Employee();
+            //iwe.Show();
         }
     }
 }

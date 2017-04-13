@@ -17,7 +17,7 @@ namespace Pubs_DB_App
             InitializeComponent();
         }
 
-        private void Insert_Window_Title_Load(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }
